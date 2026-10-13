@@ -1,0 +1,79 @@
+{
+  "totals": {
+    "days": 300,
+    "valid_flagged": 0,
+    "planted": 1892,
+    "caught": 1892,
+    "bad_days": 242,
+    "bad_days_stopped": 242
+  },
+  "by_rule": {
+    "travel": {
+      "days": 28,
+      "planted": 142,
+      "caught": 142
+    },
+    "battery": {
+      "days": 36,
+      "planted": 178,
+      "caught": 178
+    },
+    "wind": {
+      "days": 47,
+      "no_effect": 17,
+      "planted": 97,
+      "caught": 97
+    },
+    "tube": {
+      "days": 47,
+      "planted": 388,
+      "caught": 388
+    },
+    "supply": {
+      "days": 37,
+      "planted": 574,
+      "caught": 574
+    },
+    "lightning": {
+      "days": 49,
+      "no_effect": 35,
+      "planted": 36,
+      "caught": 36
+    },
+    "crew_hours": {
+      "days": 25,
+      "planted": 47,
+      "caught": 47,
+      "no_effect": 6
+    },
+    "separation": {
+      "days": 31,
+      "planted": 430,
+      "caught": 430
+    }
+  },
+  "sim_unchecked": {
+    "installed": 241012.0,
+    "promised": 349069.0,
+    "robot_min_lost": 90570.0,
+    "stranded": 63.0,
+    "separation_min": 18185.0,
+    "crew_overtime_min": 2190.0
+  },
+  "sim_gated": {
+    "installed": 168368.0,
+    "promised": 190735.0,
+    "robot_min_lost": 18705.0,
+    "stranded": 0,
+    "separation_min": 0,
+    "crew_overtime_min": 0.0
+  },
+  "sim_replanned": {
+    "installed": 320630.0,
+    "promised": 320630.0,
+    "robot_min_lost": 0,
+    "stranded": 0,
+    "separation_min": 0,
+    "crew_overtime_min": 0.0
+  }
+}

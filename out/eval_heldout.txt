@@ -1,0 +1,23 @@
+
+== heldout: 300 jobsite days
+   valid plans (every rule kept) flagged by the gate: 0/300
+   agent plans where a forgotten rule broke something: 242  ·  stopped before dispatch: 242/242
+   broken tasks caught (right task, right code): 1892/1892
+
+   forgot       days no effect  broken  caught
+   battery        36         0     178     178
+   crew_hours     25         6      47      47
+   lightning      49        35      36      36
+   separation     31         0     430     430
+   supply         37         0     574     574
+   travel         28         0     142     142
+   tube           47         0     388     388
+   wind           47        17      97      97
+
+   simulated on the same days      unchecked   flagged held   re-planned from feedback
+   modules promised                  349069         190735              320630
+   modules installed                 241012         168368              320630
+   robot-minutes lost                 90570          18705                   0
+   robots stranded                       63              0                   0
+   minutes robots too close           18185              0                   0
+   crew overtime min                   2190              0                   0
