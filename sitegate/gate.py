@@ -149,7 +149,7 @@ def check(site, plan):
             home = L["drain_move"] * travel_min(site, loc, "yard") / 60
             if soc - home < L["reserve"]:
                 need_min = int((L["reserve"] + home - soc) / L["charge_per_h"] * 60) + 15
-                bad(i, "BATTERY", f"{rb['id']} at {max(soc, 0):.0f}% after this task, needs {home + L['reserve']:.0f}% to get back to the yard",
+                bad(i, "BATTERY", f"{rb['id']} at {max(soc, 0):.1f}% after this task, needs {home + L['reserve']:.1f}% to get back to the yard",
                     f"charge ~{need_min} min at the yard before this task")
                 soc = max(soc, 0)
             clock = b

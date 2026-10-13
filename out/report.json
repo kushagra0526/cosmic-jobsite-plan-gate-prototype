@@ -1,0 +1,764 @@
+{
+  "seed": 2,
+  "forgot": [
+    "battery",
+    "wind"
+  ],
+  "plan": {
+    "tasks": [
+      {
+        "type": "travel",
+        "robot": "R1",
+        "to": "B2",
+        "start": "07:00",
+        "end": "07:07",
+        "id": "t1"
+      },
+      {
+        "type": "deliver",
+        "block": "B2",
+        "row": 5,
+        "pallets": 3,
+        "start": "07:00",
+        "end": "07:36",
+        "id": "t2"
+      },
+      {
+        "type": "travel",
+        "robot": "R2",
+        "to": "B3",
+        "start": "07:00",
+        "end": "07:10",
+        "id": "t3"
+      },
+      {
+        "type": "travel",
+        "robot": "R3",
+        "to": "B1",
+        "start": "07:00",
+        "end": "07:04",
+        "id": "t5"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C1",
+        "block": "B3",
+        "row": 1,
+        "start": "07:15",
+        "end": "08:30",
+        "modules": 90,
+        "id": "t4"
+      },
+      {
+        "type": "deliver",
+        "block": "B1",
+        "row": 11,
+        "pallets": 2,
+        "start": "07:36",
+        "end": "08:00",
+        "id": "t6"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C2",
+        "block": "B2",
+        "row": 5,
+        "start": "07:45",
+        "end": "09:00",
+        "modules": 90,
+        "id": "t7"
+      },
+      {
+        "type": "install",
+        "robot": "R3",
+        "crew": "C3",
+        "block": "B1",
+        "row": 11,
+        "start": "08:00",
+        "end": "09:15",
+        "modules": 90,
+        "id": "t8"
+      },
+      {
+        "type": "deliver",
+        "block": "B2",
+        "row": 6,
+        "pallets": 3,
+        "start": "08:19",
+        "end": "08:55",
+        "id": "t10"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C1",
+        "block": "B3",
+        "row": 2,
+        "start": "08:30",
+        "end": "09:45",
+        "modules": 90,
+        "id": "t9"
+      },
+      {
+        "type": "deliver",
+        "block": "B1",
+        "row": 12,
+        "pallets": 2,
+        "start": "08:55",
+        "end": "09:19",
+        "id": "t12"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C2",
+        "block": "B2",
+        "row": 6,
+        "start": "09:00",
+        "end": "10:15",
+        "modules": 90,
+        "id": "t11"
+      },
+      {
+        "type": "deliver",
+        "block": "B3",
+        "row": 3,
+        "pallets": 3,
+        "start": "09:19",
+        "end": "09:55",
+        "id": "t14"
+      },
+      {
+        "type": "install",
+        "robot": "R3",
+        "crew": "C3",
+        "block": "B1",
+        "row": 12,
+        "start": "09:30",
+        "end": "10:45",
+        "modules": 90,
+        "id": "t13"
+      },
+      {
+        "type": "deliver",
+        "block": "B2",
+        "row": 7,
+        "pallets": 2,
+        "start": "09:55",
+        "end": "10:19",
+        "id": "t16"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C1",
+        "block": "B3",
+        "row": 3,
+        "start": "10:00",
+        "end": "11:15",
+        "modules": 90,
+        "id": "t15"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C2",
+        "block": "B2",
+        "row": 7,
+        "start": "10:30",
+        "end": "11:30",
+        "modules": 75,
+        "id": "t17"
+      },
+      {
+        "type": "install",
+        "robot": "R3",
+        "crew": "C3",
+        "block": "B1",
+        "row": 13,
+        "start": "10:45",
+        "end": "11:30",
+        "modules": 56,
+        "id": "t18"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C1",
+        "block": "B3",
+        "row": 4,
+        "start": "11:15",
+        "end": "11:30",
+        "modules": 18,
+        "id": "t19"
+      },
+      {
+        "type": "deliver",
+        "block": "B3",
+        "row": 4,
+        "pallets": 1,
+        "start": "11:58",
+        "end": "12:10",
+        "id": "t21"
+      },
+      {
+        "type": "deliver",
+        "block": "B2",
+        "row": 8,
+        "pallets": 1,
+        "start": "12:13",
+        "end": "12:25",
+        "id": "t24"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C3",
+        "block": "B2",
+        "row": 7,
+        "start": "12:15",
+        "end": "12:30",
+        "modules": 15,
+        "id": "t20"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C2",
+        "block": "B3",
+        "row": 4,
+        "start": "12:15",
+        "end": "13:15",
+        "modules": 72,
+        "id": "t22"
+      },
+      {
+        "type": "install",
+        "robot": "R3",
+        "crew": "C1",
+        "block": "B1",
+        "row": 13,
+        "start": "12:15",
+        "end": "12:45",
+        "modules": 34,
+        "id": "t23"
+      },
+      {
+        "type": "deliver",
+        "block": "B1",
+        "row": 14,
+        "pallets": 3,
+        "start": "12:25",
+        "end": "13:01",
+        "id": "t26"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C3",
+        "block": "B2",
+        "row": 8,
+        "start": "12:30",
+        "end": "13:45",
+        "modules": 90,
+        "id": "t25"
+      },
+      {
+        "type": "deliver",
+        "block": "B3",
+        "row": 5,
+        "pallets": 1,
+        "start": "13:01",
+        "end": "13:13",
+        "id": "t28"
+      },
+      {
+        "type": "install",
+        "robot": "R3",
+        "crew": "C1",
+        "block": "B1",
+        "row": 14,
+        "start": "13:15",
+        "end": "14:30",
+        "modules": 90,
+        "id": "t27"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C2",
+        "block": "B3",
+        "row": 5,
+        "start": "13:15",
+        "end": "14:30",
+        "modules": 90,
+        "id": "t29"
+      },
+      {
+        "type": "deliver",
+        "block": "B2",
+        "row": 9,
+        "pallets": 2,
+        "start": "13:16",
+        "end": "13:40",
+        "id": "t30"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C3",
+        "block": "B2",
+        "row": 9,
+        "start": "13:45",
+        "end": "15:00",
+        "modules": 90,
+        "id": "t31"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C1",
+        "block": "B3",
+        "row": 6,
+        "start": "14:30",
+        "end": "15:45",
+        "modules": 90,
+        "id": "t32"
+      },
+      {
+        "type": "install",
+        "robot": "R3",
+        "crew": "C2",
+        "block": "B1",
+        "row": 15,
+        "start": "14:30",
+        "end": "15:45",
+        "modules": 90,
+        "id": "t33"
+      },
+      {
+        "type": "deliver",
+        "block": "B2",
+        "row": 10,
+        "pallets": 1,
+        "start": "14:43",
+        "end": "14:55",
+        "id": "t34"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C3",
+        "block": "B2",
+        "row": 10,
+        "start": "15:00",
+        "end": "16:15",
+        "modules": 90,
+        "id": "t35"
+      },
+      {
+        "type": "deliver",
+        "block": "B3",
+        "row": 7,
+        "pallets": 2,
+        "start": "15:16",
+        "end": "15:40",
+        "id": "t36"
+      },
+      {
+        "type": "deliver",
+        "block": "B1",
+        "row": 16,
+        "pallets": 3,
+        "start": "15:40",
+        "end": "16:16",
+        "id": "t38"
+      },
+      {
+        "type": "install",
+        "robot": "R2",
+        "crew": "C1",
+        "block": "B3",
+        "row": 7,
+        "start": "15:45",
+        "end": "17:00",
+        "modules": 90,
+        "id": "t37"
+      },
+      {
+        "type": "deliver",
+        "block": "B2",
+        "row": 11,
+        "pallets": 1,
+        "start": "16:16",
+        "end": "16:28",
+        "id": "t39"
+      },
+      {
+        "type": "install",
+        "robot": "R3",
+        "crew": "C2",
+        "block": "B1",
+        "row": 16,
+        "start": "16:30",
+        "end": "17:30",
+        "modules": 75,
+        "id": "t40"
+      },
+      {
+        "type": "install",
+        "robot": "R1",
+        "crew": "C3",
+        "block": "B2",
+        "row": 11,
+        "start": "16:30",
+        "end": "17:30",
+        "modules": 75,
+        "id": "t41"
+      }
+    ]
+  },
+  "gate": {
+    "verdict": "BLOCK",
+    "tasks": [
+      {
+        "task": "t1",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t2",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t3",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t5",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t4",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t6",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t7",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t8",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t10",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t9",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t12",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t11",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t14",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t13",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t16",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t15",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t17",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t18",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t19",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t21",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t24",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t20",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t22",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R2 at 9.8% after this task, needs 11.0% to get back to the yard",
+            "fix": "charge ~16 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t23",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t26",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t25",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R1 at 9.6% after this task, needs 10.1% to get back to the yard",
+            "fix": "charge ~15 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t28",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t27",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "WIND",
+            "severity": "BLOCK",
+            "msg": "gusts to 38 mph during 13:15-14:30 (limit 25 mph for lifting modules)",
+            "fix": "earliest clear window 14:30"
+          },
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R3 at 8.9% after this task, needs 9.2% to get back to the yard",
+            "fix": "charge ~15 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t29",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "WIND",
+            "severity": "BLOCK",
+            "msg": "gusts to 38 mph during 13:15-14:30 (limit 25 mph for lifting modules)",
+            "fix": "earliest clear window 14:30"
+          },
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R2 at 0.0% after this task, needs 11.0% to get back to the yard",
+            "fix": "charge ~37 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t30",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t31",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "WIND",
+            "severity": "BLOCK",
+            "msg": "gusts to 38 mph during 13:45-15:00 (limit 25 mph for lifting modules)",
+            "fix": "earliest clear window 14:30"
+          },
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R1 at 0.0% after this task, needs 10.1% to get back to the yard",
+            "fix": "charge ~36 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t32",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R2 at 0.0% after this task, needs 11.0% to get back to the yard",
+            "fix": "charge ~52 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t33",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R3 at 0.0% after this task, needs 9.2% to get back to the yard",
+            "fix": "charge ~36 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t34",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t35",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R1 at 0.0% after this task, needs 10.1% to get back to the yard",
+            "fix": "charge ~50 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t36",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t38",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t37",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R2 at 0.0% after this task, needs 11.0% to get back to the yard",
+            "fix": "charge ~52 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t39",
+        "verdict": "OK",
+        "issues": []
+      },
+      {
+        "task": "t40",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R3 at 0.0% after this task, needs 9.2% to get back to the yard",
+            "fix": "charge ~47 min at the yard before this task"
+          }
+        ]
+      },
+      {
+        "task": "t41",
+        "verdict": "BLOCK",
+        "issues": [
+          {
+            "code": "BATTERY",
+            "severity": "BLOCK",
+            "msg": "R1 at 0.0% after this task, needs 10.1% to get back to the yard",
+            "fix": "charge ~47 min at the yard before this task"
+          }
+        ]
+      }
+    ],
+    "feedback": [
+      "[BLOCK] t22 (R2 install B3 row 4, 12:15-13:15): BATTERY: R2 at 9.8% after this task, needs 11.0% to get back to the yard. Fix: charge ~16 min at the yard before this task.",
+      "[BLOCK] t25 (R1 install B2 row 8, 12:30-13:45): BATTERY: R1 at 9.6% after this task, needs 10.1% to get back to the yard. Fix: charge ~15 min at the yard before this task.",
+      "[BLOCK] t27 (R3 install B1 row 14, 13:15-14:30): WIND: gusts to 38 mph during 13:15-14:30 (limit 25 mph for lifting modules). Fix: earliest clear window 14:30.",
+      "[BLOCK] t27 (R3 install B1 row 14, 13:15-14:30): BATTERY: R3 at 8.9% after this task, needs 9.2% to get back to the yard. Fix: charge ~15 min at the yard before this task.",
+      "[BLOCK] t29 (R2 install B3 row 5, 13:15-14:30): WIND: gusts to 38 mph during 13:15-14:30 (limit 25 mph for lifting modules). Fix: earliest clear window 14:30.",
+      "[BLOCK] t29 (R2 install B3 row 5, 13:15-14:30): BATTERY: R2 at 0.0% after this task, needs 11.0% to get back to the yard. Fix: charge ~37 min at the yard before this task.",
+      "[BLOCK] t31 (R1 install B2 row 9, 13:45-15:00): WIND: gusts to 38 mph during 13:45-15:00 (limit 25 mph for lifting modules). Fix: earliest clear window 14:30.",
+      "[BLOCK] t31 (R1 install B2 row 9, 13:45-15:00): BATTERY: R1 at 0.0% after this task, needs 10.1% to get back to the yard. Fix: charge ~36 min at the yard before this task.",
+      "[BLOCK] t32 (R2 install B3 row 6, 14:30-15:45): BATTERY: R2 at 0.0% after this task, needs 11.0% to get back to the yard. Fix: charge ~52 min at the yard before this task.",
+      "[BLOCK] t33 (R3 install B1 row 15, 14:30-15:45): BATTERY: R3 at 0.0% after this task, needs 9.2% to get back to the yard. Fix: charge ~36 min at the yard before this task.",
+      "[BLOCK] t35 (R1 install B2 row 10, 15:00-16:15): BATTERY: R1 at 0.0% after this task, needs 10.1% to get back to the yard. Fix: charge ~50 min at the yard before this task.",
+      "[BLOCK] t37 (R2 install B3 row 7, 15:45-17:00): BATTERY: R2 at 0.0% after this task, needs 11.0% to get back to the yard. Fix: charge ~52 min at the yard before this task.",
+      "[BLOCK] t40 (R3 install B1 row 16, 16:30-17:30): BATTERY: R3 at 0.0% after this task, needs 9.2% to get back to the yard. Fix: charge ~47 min at the yard before this task.",
+      "[BLOCK] t41 (R1 install B2 row 11, 16:30-17:30): BATTERY: R1 at 0.0% after this task, needs 10.1% to get back to the yard. Fix: charge ~47 min at the yard before this task."
+    ]
+  },
+  "sim": {
+    "unchecked": {
+      "promised": 1770.0,
+      "installed": 1240.0,
+      "robot_min_lost": 440.0,
+      "lost_weather": 135.0,
+      "stranded": 3.0,
+      "crew_overtime_min": 0.0
+    },
+    "flagged held": {
+      "promised": 828.0,
+      "installed": 828.0,
+      "crew_overtime_min": 0.0
+    },
+    "re-planned from feedback": {
+      "promised": 1335.0,
+      "installed": 1335.0,
+      "crew_overtime_min": 0.0
+    }
+  }
+}
